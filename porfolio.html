@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es-Uy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Thalía</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Porfolio de Thalía Arismendi</h1>
+
+    <div class="centrarImagen">
+        <img src="fotis-fotopoulos-DuHKoV44prg-unsplash.jpg" alt="Imagen donde se ve código HTML">
+    </div>
+    <div class="texto">
+        <p>Hola soy Thalía y soy una <span>estudiante de desarrollo web, Front-End en JAP</span>, me uní al programa porque me pareció un muy interesante  y por mi parte me estaba informando sobre el mundo de las tecnologías, me interesó la parte de crear mis propias páginas web, darles mi estilo y desarrollar el contenido de la misma, seguiré estudiando para ser una buena profesional en el ámbito, te invito a que me conozcas un poco más.</p>
+    </div>
+<hr>
+     <!--Atajos de la página-->
+
+    <h2>Lista de atajos de la página</h2>
+
+    <ul>
+        <li><a href="#habilidadesYConocimientos">Habilidades y conocimientos</a></li>
+        <li><a href="#proyectos">Algunos de mis trabajos</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#perfilesSociales">Perfiles sociales</a></li>
+        <li><a href="#contacto">contacto</a></li>
+    </ul>
+<hr>
+    <!--Lista de habilidades y conocimientos-->
+
+    <h2 id="habilidadesYConocimientos">Habilidades y conocimientos</h2>
+
+    <ul>
+        <li><strong>Desarrollo web:</strong> HTML,CSS,JS,RUBY</li>
+        <li><strong>Fortalezas:</strong> Puntualidad,responsabilidad, compromiso.</li>
+    </ul>
+<hr>
+    <!--lista de proyectos realizados-->
+
+    <h2 id="proyectos">Proyectos</h2>
+
+    <nav>
+        <ul>
+            <li><a href="#proyecto1">Mi primer HTML.</a></li>
+            <li><a href="#proyecto2">Mi primer documento.</a></li>
+            <li><a href="#proyecto3">Mi primer Formulario.</a></li>
+            <li><a href="#proyecto4">Poemas.</a></li>
+            <li><a href="#proyecto5">Cv.</a></li>
+        </ul>
+    </nav>
+<hr>
+    <section id="proyecto1">
+        <h3>Proyecto 1</h3>
+        <p>Este es mi primer proyecto realizado en el curso de Jóvenes a programar, se trataba de hacer una página HTML simple con un alert al entrar.</p>
+        <div class="centrarImagen">
+            <img src="Proyecto1.png" alt="Imagen del proyecto 1">
+        </div>
+        <a href="Taller1\index.html">Ver más</a> 
+    </section>
+
+    <section id="proyecto2">
+        <h3>Proyecto 2</h3>
+        <p>Este proyecto teníamos que realizar un documento de HTML y que tuviera estilos, sería la primera vez que usabamos estilos</p>
+        <div class="centrarImagen">
+            <img src="Proyecto2.png" alt="Imagen del proyecto 2">
+        </div>
+        <a href="taller2/documento.html">Ver más</a>
+    </section>
+
+    <section id="proyecto3">
+        <h3>Proyecto 3</h3>
+        <p>Este proyecto trata sobre hacer un formulario, tiene disintos campos con los cuales interactuar sin estilo</p>
+        <div class="centrarImagen">
+            <img src="Proyecto3.png" alt="Imagen del proyecto 3">
+        </div>
+        <a href="talller2/Formulario.html">Ver más</a>
+    </section>
+
+    <section id="proyecto4">
+        <h3>Proyecto 4</h3>
+        <p>Este proyecto trataba de crear unas 2 página que tuvieran estilo y estubieran enlazadas entre si</p>
+        <div class="centrarImagen">
+            <img src="Proyecto4.0.png" alt="Imagen del proyecto 4">
+            <img src="Proyecto4.1.png" alt="Imagen del proyecto 4">
+        </div>
+        <a href="EjerciciosClase2/poemas1.html">Ver más</a>
+    </section>
+
+    <section id="proyecto5">
+        <h3>Proyecto 5</h3>
+        <p>Este proyecto trata sobre una conjunción de los otros proyectos porque es una página HTML, CSS, Contiene un formulario y tambien tiene enlaces externos</p>
+        <div class="centrarImagen">
+            <img src="proyecto5.png" alt="Imagen del proyecto 5">
+        </div>
+        <a href="EjerciciosClase2/cv.html">Ver más</a>
+    </section>
+<hr>
+    <!--Tabla de educación-->
+
+    <h2 id="educacion">Educación</h2>
+
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Entidad</th>
+                <th>Promoción</th>
+            </tr>
+            <tr>
+                <td>Introducción al desarrollo web parte 1</td>
+                <td>Google Actívate</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Introducción al desarrollo web parte 2</td>
+                <td>Google Actívate</td>
+                <td>Cursando</td>
+            </tr>
+            <tr>
+                <td>Desarrollo web</td>
+                <td>Plan Ceibal (Jóvenes a programar)</td>
+                <td>Cursando</td>
+            </tr>
+        </table>
+<hr>
+    <!--Lista de perfiles sociales-->
+
+    <h2 id="perfilesSociales">Redes Sociales</h2>
+    
+    <p>Puedes encontrarme en estas redes sociales: </p>
+
+    <ul>
+        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/thal%C3%ADa-arismendi-a5a95324b/" target="_blank">Linkedin</a></li>
+    </ul>
+<hr>
+    <!--Contacto-->
+
+    <h2 id="contacto">Contacto</h2>
+
+    <form action="#">
+                    
+        <div><label for="contacto" required> Temática: </label>
+            <select name="contacto" id="contacto">
+                <option value="-- Elige un tema --" disabled selected>-- Elige un tema --</option>
+                <option value="Consulta">Consulta</option>
+                <option value="Propuesta">Propuesta</option>
+                <option value="Reporte">Reporte</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </div>
+        <div id="Cuerpo">
+            <textarea name="cuerpo" id="" cols="32" rows="2" placeholder="Escriba aquí" required></textarea>
+            <input type="submit" value="Enviar"/>
+        </div>
+    </form>
+
+</body>
+</html>
