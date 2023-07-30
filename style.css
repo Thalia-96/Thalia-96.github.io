@@ -3,7 +3,11 @@
 }
 
 body{
-    background: linear-gradient(45deg, #eb5874,#fd8086,#c0ceaa,#fd8086,#eb5874);
+    /*background: linear-gradient(45deg, #eb5874,#fd8086,#c0ceaa,#fd8086,#eb5874); */
+    background-image: url(ruvim-noga-o0R4iqk1eRQ-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
 }
 
 h1 {
