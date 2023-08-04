@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(37, 5, 73);
+    color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -10px;
+}
+
+.brand span {
+    color: red;
+}
+
+.menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 4px 10px;
+}
+
+.menu a:hover {
+    background-color: red;
+    color: white(4, 4, 63);
+}
+
+.main {
+   margin: 2em;
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    position: relative;
+    text-align: center;
+    font-style: oblique;
+    padding: 30px;
+}
+
+span {
+    color: red;
+}
+
+p {
+    color: white;
+}
+
+h2, h3 {
+    color: red;
+    text-align: center;
+    font-style: oblique;
+    padding: 30px;
+}
+
+.main-img {
+    width: 450px;
+    border: 3px solid red;
+    border-radius: 15px;
+    height: 380px;
+    padding: 15px;
+    display: flex;
+    justify-content: first baseline;
+}
+
+.imagen-proyecto {
+    width: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: baseline;
+}
+
+.sobreMi {
+    padding: 40px;
+    display: grid;
+    width: 100vw;
+    text-align: justify;
+    display: flex;
+}
+
+.sobreMi img {
+    width: 300px;
+    margin: 0%;
+    padding: 25px;
+}
+
+.sobreMi-info {
+    padding: 2em;
+}
+
+.sobreMi-info h2 {
+    padding: 20px;
+    font-size: 2em;
+    color: red;
+}
+
+.container {
+    display: contents;
+}
+
+.container img {
+    width: 600px;
+}
+
+img {
+    padding: 4px;
+    border-radius: 15px;
+}
+
+p {
+    font-style: oblique;
+}
+
+ul, table {
+    font-style: oblique;
+    font-weight: 400em;
+}
+
