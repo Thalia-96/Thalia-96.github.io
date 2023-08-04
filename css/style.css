@@ -80,6 +80,7 @@ span {
 }
 
 p {
+    font-style: oblique;
     color: white;
 }
 
@@ -142,10 +143,6 @@ h2, h3 {
 img {
     padding: 4px;
     border-radius: 15px;
-}
-
-p {
-    font-style: oblique;
 }
 
 ul, table {
